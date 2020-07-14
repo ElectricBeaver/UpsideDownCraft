@@ -1,0 +1,6 @@
+name: UpsideDownCraft
+version: 1.0.0
+api-version: 1.16
+main: io.github.electrcibeaver.CraftUpsideDown.Main
+description: this is plugin
+prefix: CursedCraft
