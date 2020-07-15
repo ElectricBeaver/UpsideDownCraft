@@ -113,6 +113,10 @@ public class Recipes {
         //Weeping Vines
         //Twisting Vines
         //Torch
+            ShapedRecipe torch00 = new ShapedRecipe(new ItemStack(Material.TORCH, 4)).shape("i ", "* ").setIngredient('i', Material.STICK).setIngredient('*', Material.COAL);
+            ShapedRecipe torch01 = new ShapedRecipe(new ItemStack(Material.TORCH, 4)).shape(" i", " *").setIngredient('i', Material.STICK).setIngredient('*', Material.COAL);
+            Main.addToArray(torch00);
+            Main.addToArray(torch01);
         //End Rod
                 //Crafting Table
         //Jukebox
@@ -143,7 +147,6 @@ public class Recipes {
         //Banners, all colors
         //End Crystal
         //Loom
-            //TODO Looms, Add new wood (Mats/Lines)
             ShapedRecipe loom00 = new ShapedRecipe(new ItemStack(Material.LOOM)).shape("ww ", "ss ", "   ").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('s', Material.LOOM);
             ShapedRecipe loom01 = new ShapedRecipe(new ItemStack(Material.LOOM)).shape(" ww", " ss", "   ").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('s', Material.LOOM);
             ShapedRecipe loom02 = new ShapedRecipe(new ItemStack(Material.LOOM)).shape("   ", "ww ", "ss ").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('s', Material.LOOM);
@@ -159,16 +162,13 @@ public class Recipes {
         //Smoker
         //Blast Furnace
         //Cartography Table
-            //TODO Cartography Table, Add new wood (Mats/Lines)
-            ShapedRecipe cartographyTable00 = new ShapedRecipe(new ItemStack(Material.CARTOGRAPHY_TABLE,1)).shape("ww ", "ww ", "pp ").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS)).setIngredient('p', Material.PAPER);
-            ShapedRecipe cartographyTable01 = new ShapedRecipe(new ItemStack(Material.CARTOGRAPHY_TABLE,1)).shape(" ww", " ww", " pp").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS)).setIngredient('p', Material.PAPER);
+            ShapedRecipe cartographyTable00 = new ShapedRecipe(new ItemStack(Material.CARTOGRAPHY_TABLE,1)).shape("ww ", "ww ", "pp ").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('p', Material.PAPER);
+            ShapedRecipe cartographyTable01 = new ShapedRecipe(new ItemStack(Material.CARTOGRAPHY_TABLE,1)).shape(" ww", " ww", " pp").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('p', Material.PAPER);
             Main.addToArray(cartographyTable00);
             Main.addToArray(cartographyTable01);
-
         //Fletching Table
         //Grindstone
         //Smithing Table
-            //TODO Smithing table, Add new wood (Mats)
             ShapedRecipe smithingTable = new ShapedRecipe(new ItemStack(Material.SMITHING_TABLE)).shape("ww ", "ww ", "ii ").setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('i', Material.IRON_INGOT);
             Main.addToArray(smithingTable);
         //Stonecutter
@@ -186,7 +186,6 @@ public class Recipes {
         //Dispenser
         //Note Block
         //Piston
-            //TODO Pistons, add new wood (Mat)
             ShapedRecipe piston = new ShapedRecipe(new ItemStack(Material.PISTON, 1)).shape("crc", "cic", "www").setIngredient('w', new RecipeChoice.MaterialChoice(Material.OAK_PLANKS, Material.BIRCH_PLANKS, Material.SPRUCE_PLANKS, Material.JUNGLE_PLANKS, Material.ACACIA_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('c', Material.COBBLESTONE).setIngredient('r', Material.REDSTONE).setIngredient('i', Material.IRON_INGOT);
             Main.addToArray(piston);
         //Sticky Piston
@@ -228,7 +227,7 @@ public class Recipes {
         //Minecart with TNT
         //Minecart with Hopper
         //Boats, all types
-            //TODO Boats, add new wood (lines)
+            //TODO Boats, add new wood if they add them to the game (lines)
             ShapedRecipe boat00 = new ShapedRecipe(new ItemStack(Material.ACACIA_BOAT, 1)).shape("www", "w w", "   ").setIngredient('w', Material.ACACIA_PLANKS);
             ShapedRecipe boat01 = new ShapedRecipe(new ItemStack(Material.BIRCH_BOAT, 1)).shape("www", "w w", "   ").setIngredient('w', Material.BIRCH_PLANKS);
             ShapedRecipe boat02 = new ShapedRecipe(new ItemStack(Material.DARK_OAK_BOAT, 1)).shape("www", "w w", "   ").setIngredient('w', Material.DARK_OAK_PLANKS);
@@ -325,12 +324,11 @@ public class Recipes {
 
     public void tools(){
         //Shovels, all types
-            //TODO Shovels, add new wood (Mats)
             ShapedRecipe diamondShovel00 = new ShapedRecipe(new ItemStack(Material.DIAMOND_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.DIAMOND);
             ShapedRecipe ironShovel00 = new ShapedRecipe(new ItemStack(Material.IRON_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenShovel00 = new ShapedRecipe(new ItemStack(Material.GOLDEN_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneShovel00 = new ShapedRecipe(new ItemStack(Material.STONE_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenShovel00 = new ShapedRecipe(new ItemStack(Material.WOODEN_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenShovel00 = new ShapedRecipe(new ItemStack(Material.WOODEN_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondShovel00);
             Main.addToArray(ironShovel00);
             Main.addToArray(goldenShovel00);
@@ -341,7 +339,7 @@ public class Recipes {
             ShapedRecipe ironShovel01 = new ShapedRecipe(new ItemStack(Material.IRON_SHOVEL, 1)).shape("*  ", "*  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenShovel01 = new ShapedRecipe(new ItemStack(Material.GOLDEN_SHOVEL, 1)).shape("*  ", "*  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneShovel01 = new ShapedRecipe(new ItemStack(Material.STONE_SHOVEL, 1)).shape("*  ", "*  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenShovel01 = new ShapedRecipe(new ItemStack(Material.WOODEN_SHOVEL, 1)).shape("*  ", "*  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenShovel01 = new ShapedRecipe(new ItemStack(Material.WOODEN_SHOVEL, 1)).shape("*  ", "*  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondShovel01);
             Main.addToArray(ironShovel01);
             Main.addToArray(goldenShovel01);
@@ -352,7 +350,7 @@ public class Recipes {
             ShapedRecipe ironShovel02 = new ShapedRecipe(new ItemStack(Material.IRON_SHOVEL, 1)).shape("  *", "  *", "  %").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenShovel02 = new ShapedRecipe(new ItemStack(Material.GOLDEN_SHOVEL, 1)).shape("  *", "  *", "  %").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneShovel02 = new ShapedRecipe(new ItemStack(Material.STONE_SHOVEL, 1)).shape("  *", "  *", "  %").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenShovel02 = new ShapedRecipe(new ItemStack(Material.WOODEN_SHOVEL, 1)).shape("  *", "  *", "  %").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenShovel02 = new ShapedRecipe(new ItemStack(Material.WOODEN_SHOVEL, 1)).shape("  *", "  *", "  %").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondShovel02);
             Main.addToArray(ironShovel02);
             Main.addToArray(goldenShovel02);
@@ -364,7 +362,7 @@ public class Recipes {
             ShapedRecipe ironPick = new ShapedRecipe(new ItemStack(Material.IRON_PICKAXE, 1)).shape(" * ", " * ", "%%%").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenPick = new ShapedRecipe(new ItemStack(Material.GOLDEN_PICKAXE, 1)).shape(" * ", " * ", "%%%").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stonePick = new ShapedRecipe(new ItemStack(Material.STONE_PICKAXE, 1)).shape(" * ", " * ", "%%%").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenPick = new ShapedRecipe(new ItemStack(Material.WOODEN_PICKAXE, 1)).shape(" * ", " * ", "www").setIngredient('*', Material.STICK).setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenPick = new ShapedRecipe(new ItemStack(Material.WOODEN_PICKAXE, 1)).shape(" * ", " * ", "www").setIngredient('*', Material.STICK).setIngredient('w', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondPick);
             Main.addToArray(ironPick);
             Main.addToArray(goldenPick);
@@ -376,7 +374,7 @@ public class Recipes {
             ShapedRecipe ironAxe00 = new ShapedRecipe(new ItemStack(Material.IRON_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenAxe00 = new ShapedRecipe(new ItemStack(Material.GOLDEN_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneAxe00 = new ShapedRecipe(new ItemStack(Material.STONE_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenAxe00 = new ShapedRecipe(new ItemStack(Material.WOODEN_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenAxe00 = new ShapedRecipe(new ItemStack(Material.WOODEN_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondAxe00);
             Main.addToArray(ironAxe00);
             Main.addToArray(goldenAxe00);
@@ -386,7 +384,7 @@ public class Recipes {
             ShapedRecipe ironAxe01 = new ShapedRecipe(new ItemStack(Material.IRON_AXE, 1)).shape(" * ", " *%", "%% ").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenAxe01 = new ShapedRecipe(new ItemStack(Material.GOLDEN_AXE, 1)).shape(" * ", " *%", "%% ").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneAxe01 = new ShapedRecipe(new ItemStack(Material.STONE_AXE, 1)).shape(" * ", " *%", "%% ").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenAxe01 = new ShapedRecipe(new ItemStack(Material.WOODEN_AXE, 1)).shape(" * ", " *%", "%% ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenAxe01 = new ShapedRecipe(new ItemStack(Material.WOODEN_AXE, 1)).shape(" * ", " *%", "%% ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondAxe01);
             Main.addToArray(ironAxe01);
             Main.addToArray(goldenAxe01);
@@ -394,12 +392,11 @@ public class Recipes {
             Main.addToArray(woodenAxe01);
         //Flint and Steel
         //Hoes, all types
-            //TODO Hoes, add new wood (Mats)
             ShapedRecipe diamondHoe00 = new ShapedRecipe(new ItemStack(Material.DIAMOND_HOE, 1)).shape(" * ", " * ", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.DIAMOND);
             ShapedRecipe ironHoe00 = new ShapedRecipe(new ItemStack(Material.IRON_HOE, 1)).shape(" * ", " * ", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenHoe00 = new ShapedRecipe(new ItemStack(Material.GOLDEN_HOE, 1)).shape(" * ", " * ", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneHoe00 = new ShapedRecipe(new ItemStack(Material.STONE_HOE, 1)).shape(" * ", " * ", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenHoe00 = new ShapedRecipe(new ItemStack(Material.WOODEN_HOE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenHoe00 = new ShapedRecipe(new ItemStack(Material.WOODEN_HOE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondHoe00);
             Main.addToArray(ironHoe00);
             Main.addToArray(goldenHoe00);
@@ -410,7 +407,7 @@ public class Recipes {
             ShapedRecipe ironHoe01 = new ShapedRecipe(new ItemStack(Material.IRON_HOE, 1)).shape(" * ", " * ", "%% ").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenHoe01 = new ShapedRecipe(new ItemStack(Material.GOLDEN_HOE, 1)).shape(" * ", " * ", "%% ").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneHoe01 = new ShapedRecipe(new ItemStack(Material.STONE_HOE, 1)).shape(" * ", " * ", "%% ").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenHoe01 = new ShapedRecipe(new ItemStack(Material.WOODEN_HOE, 1)).shape(" * ", " * ", "%% ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenHoe01 = new ShapedRecipe(new ItemStack(Material.WOODEN_HOE, 1)).shape(" * ", " * ", "%% ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondHoe01);
             Main.addToArray(ironHoe01);
             Main.addToArray(goldenHoe01);
@@ -434,7 +431,7 @@ public class Recipes {
             ShapedRecipe ironSword00 = new ShapedRecipe(new ItemStack(Material.IRON_SWORD, 1)).shape(" * ", " % ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenSword00 = new ShapedRecipe(new ItemStack(Material.GOLDEN_SWORD, 1)).shape(" * ", " % ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneSword00 = new ShapedRecipe(new ItemStack(Material.STONE_SWORD, 1)).shape(" * ", " % ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenSword00 = new ShapedRecipe(new ItemStack(Material.WOODEN_SWORD, 1)).shape(" * ", " % ", " % ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenSword00 = new ShapedRecipe(new ItemStack(Material.WOODEN_SWORD, 1)).shape(" * ", " % ", " % ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondSword00);
             Main.addToArray(ironSword00);
             Main.addToArray(goldenSword00);
@@ -445,7 +442,7 @@ public class Recipes {
             ShapedRecipe ironSword01 = new ShapedRecipe(new ItemStack(Material.IRON_SWORD, 1)).shape("*  ", "%  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenSword01 = new ShapedRecipe(new ItemStack(Material.GOLDEN_SWORD, 1)).shape("*  ", "%  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneSword01 = new ShapedRecipe(new ItemStack(Material.STONE_SWORD, 1)).shape("*  ", "%  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenSword01 = new ShapedRecipe(new ItemStack(Material.WOODEN_SWORD, 1)).shape("*  ", "%  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenSword01 = new ShapedRecipe(new ItemStack(Material.WOODEN_SWORD, 1)).shape("*  ", "%  ", "%  ").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondSword01);
             Main.addToArray(ironSword01);
             Main.addToArray(goldenSword01);
@@ -456,7 +453,7 @@ public class Recipes {
             ShapedRecipe ironSword02 = new ShapedRecipe(new ItemStack(Material.IRON_SWORD, 1)).shape("  *", "  %", "  %").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenSword02 = new ShapedRecipe(new ItemStack(Material.GOLDEN_SWORD, 1)).shape("  *", "  %", "  %").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
             ShapedRecipe stoneSword02 = new ShapedRecipe(new ItemStack(Material.STONE_SWORD, 1)).shape("  *", "  %", "  %").setIngredient('*', Material.STICK).setIngredient('%', Material.COBBLESTONE);
-            ShapedRecipe woodenSword02 = new ShapedRecipe(new ItemStack(Material.WOODEN_SWORD, 1)).shape("  *", "  %", "  %").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS));
+            ShapedRecipe woodenSword02 = new ShapedRecipe(new ItemStack(Material.WOODEN_SWORD, 1)).shape("  *", "  %", "  %").setIngredient('*', Material.STICK).setIngredient('%', new RecipeChoice.MaterialChoice(Material.ACACIA_PLANKS, Material.BIRCH_PLANKS, Material.DARK_OAK_PLANKS, Material.JUNGLE_PLANKS, Material.SPRUCE_PLANKS, Material.OAK_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS));
             Main.addToArray(diamondSword02);
             Main.addToArray(ironSword02);
             Main.addToArray(goldenSword02);

@@ -22,7 +22,7 @@ import java.util.Objects;
 
 public class Events implements Listener {
 
-
+    @EventHandler
     public void enterBed(PlayerBedEnterEvent e){
         Block bed = e.getBed();
         Location bedLoc = bed.getLocation();

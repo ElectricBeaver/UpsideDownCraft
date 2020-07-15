@@ -167,6 +167,9 @@ public class Removed {
                 it.remove();
             }
             //T
+            else if(recipe != null && recipe.getResult().getType().equals(Material.TORCH)){
+                it.remove();
+            }
             //U
             //V
             //W
