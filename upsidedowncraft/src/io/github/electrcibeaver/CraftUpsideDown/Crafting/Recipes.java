@@ -22,13 +22,11 @@ public class Recipes {
     }*/
 
     public void buildingBlock(){
-
-
-        //Stone, all types and polished variants
-        //Grass Block
-        //Dirt
-        //Coarse Dirt
-        //Podzol
+        //Stone, all types and polished variants - no
+        //Grass Block - no
+        //Dirt - no
+        //Coarse Dirt - no
+        //Podzol - no
         //Nylium, both kinds
         //Cobblestone
         //Planks, all types
@@ -50,7 +48,6 @@ public class Recipes {
         //Block of Gold
         //Block of Iron
         //Slabs, all kinds
-            //TODO Slabs, add them.
         //Bricks
         //Bookshelf
         //Mossy Cobblestone
@@ -478,7 +475,6 @@ public class Recipes {
     }
 
     public void tools(){
-        //TODO Tools, add netherite tools
         //Shovels, all types
             //TODO Shovels, add new wood (Mats)
             ShapedRecipe diamondShovel00 = new ShapedRecipe(new ItemStack(Material.DIAMOND_SHOVEL, 1)).shape(" * ", " * ", " % ").setIngredient('*', Material.STICK).setIngredient('%', Material.DIAMOND);
@@ -582,7 +578,6 @@ public class Recipes {
     }
 
     public void combat(){
-        //TODO Combat, add netherite
         //Bow
         //Arrow
         //Swords, all types
