@@ -22,36 +22,6 @@ public class Recipes {
     }*/
 
     public void buildingBlock(){
-        //Stone, all types and polished variants - no
-        //Grass Block - no
-        //Dirt - no
-        //Coarse Dirt - no
-        //Podzol - no
-        //Nylium, both kinds
-        //Cobblestone
-        //Planks, all types
-        //Bedrock
-        //Sand, both types
-        //Gravel
-        //Gold Ore
-        //Iron Ore
-        //Coal Ore
-        //Nether Gold Ore
-        //Logs and Wood, all types
-        //Sponge
-        //Wet Sponge
-        //Glass
-        //Lapis Lazuli Ore
-        //Lapis Lazuli Block
-        //Sandstone, all types
-        //Wool, all colors
-        //Block of Gold
-        //Block of Iron
-        //Slabs, all kinds
-        //Bricks
-        //Bookshelf
-        //Mossy Cobblestone
-        //Obsidian
         //Purpur Block
         //Purpur Pillar
         //Stairs, all kinds
@@ -115,34 +85,13 @@ public class Recipes {
             ShapedRecipe andesite02 = new ShapedRecipe(new ItemStack(Material.ANDESITE_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.ANDESITE);
             Main.addToArray(andesite01);
             Main.addToArray(andesite02);
-        //Diamond Ore
-        //Block of Diamond
-        //Redstone Ore
-        //Ice
-        //Snow Block
-        //Clay
-        //Pumpkin, both types
-        //Netherrack
-        //Soul Sand
-        //Soul Soil
         //Basalt
-        //Glowstone
         //Jack o'Lantern
-        //Stone Bricks, all types
-        //Melon
-        //Mycelium
         //Nether Bricks
-        //End Stone
         //End Stone Bricks
-        //Emerald Ore
-        //Block of Emerald
-        //Nether Quartz Ore
         //Block of Quartz, all types
         //Colored Terracotta, all colors
-        //Hay Bale
         //Terracotta
-        //Block of Coal
-        //Packed Ice
         //Stained Glass, all colors
         //Prismarine
         //Prismarine Bricks
@@ -155,60 +104,27 @@ public class Recipes {
         //Concrete, all colors
         //Concrete Powder, all colors
         //Coral Blocks, all types
-        //Blue Ice
         //Dried Kelp Block
         //Block of Netherite
-        //Ancient Debris
     }
 
     public void decorationBlock(){
-        //Saplings, all kinds
-        //Leaves, all kinds
-        //Cobweb
-        //Grass
-        //Fern
-        //Dead Bush
-        //Seagrass
-        //Sea Pickle
-        //Flowers, all kinds
-        //Mushrooms, both kinds
-        //Fungi, both kinds
         //Nether Sprouts
         //Weeping Vines
         //Twisting Vines
         //Torch
         //End Rod
-        //Chorus Plant
-        //Chorus Flower
-        //Chest
-        //Crafting Table
-        //Farmland
-        //Furnace
-        //Ladder
-        //Snow
-        //Cactus
+                //Crafting Table
         //Jukebox
-        //Fences, all wooden types
         //Soul Torch
-        //Infested Blocks, all types
-        //Mushroom Blocks, all kinds
         //Iron Bars
         //Glass Pane
-        //Vines
-        //Lily Pad
         //Nether Brick Fence
         //Enchanting Table
             ShapedRecipe enchantTable = new ShapedRecipe(new ItemStack(Material.ENCHANTING_TABLE, 1)).shape("ooo", "dod", " b ").setIngredient('o', Material.OBSIDIAN).setIngredient('d', Material.DIAMOND).setIngredient('b', Material.BOOK);
             Main.addToArray(enchantTable);
-        //End Portal Frame
-        //Ender Chest
         //Walls, all types
         //Anvils, all levels of damage
-        //Carpets, all colors
-        //Slime Block
-        //Grass Path
-        //Tall Grass
-        //Large Fern
         //Stained Glass Panes, all colors
         //Shulker Boxes, all colors
         //Glazed Terracotta, all colors
@@ -223,7 +139,6 @@ public class Recipes {
             Main.addToArray(wBed);
         //Item Frame
         //Flower Pot
-        //Heads, all types
         //Armor Stand
         //Banners, all colors
         //End Crystal
@@ -275,33 +190,23 @@ public class Recipes {
             ShapedRecipe piston = new ShapedRecipe(new ItemStack(Material.PISTON, 1)).shape("crc", "cic", "www").setIngredient('w', new RecipeChoice.MaterialChoice(Material.OAK_PLANKS, Material.BIRCH_PLANKS, Material.SPRUCE_PLANKS, Material.JUNGLE_PLANKS, Material.ACACIA_PLANKS, Material.CRIMSON_PLANKS, Material.WARPED_PLANKS)).setIngredient('c', Material.COBBLESTONE).setIngredient('r', Material.REDSTONE).setIngredient('i', Material.IRON_INGOT);
             Main.addToArray(piston);
         //Sticky Piston
-        //TNT
         //Lever
-        //Stone Pressure Plate
-        //Wooden Pressure Plates, all types
         //Redstone Torch
-        //Stone Button
         //Wooden Trapdoors, all types
         //Fence Gates, all types
         //Redstone Lamp
         //Tripwire Hook
-        //Wooden Buttons, all types
         //Trapped Chest
-        //Weighted Pressure Plates, both kinds
         //Daylight Detector
             ShapedRecipe dayLightDetector = new ShapedRecipe(new ItemStack(Material.DAYLIGHT_DETECTOR, 1)).shape("sss", "qqq", "ggg").setIngredient('s', new RecipeChoice.MaterialChoice(Material.OAK_SLAB, Material.BIRCH_SLAB, Material.SPRUCE_SLAB, Material.JUNGLE_SLAB, Material.ACACIA_SLAB, Material.DARK_OAK_SLAB)).setIngredient('q', Material.QUARTZ).setIngredient('g', Material.GLASS);
             Main.addToArray(dayLightDetector);
-        //Block of Redstone
         //Hopper
             ShapedRecipe hopper = new ShapedRecipe(new ItemStack(Material.HOPPER, 1)).shape(" i ", "ici", "i i").setIngredient('i', Material.IRON_INGOT).setIngredient('c', Material.CHEST);
             Main.addToArray(hopper);
         //Dropper
             ShapedRecipe dropper = new ShapedRecipe(new ItemStack(Material.DROPPER, 1)).shape("crc", "c c", "ccc").setIngredient('c', Material.COBBLESTONE).setIngredient('r', Material.REDSTONE);
             Main.addToArray(dropper);
-        //Iron Trapdoor
         //Observer
-        //Iron Door
-        //Wooden Doors, all types
         //Redstone Repeater
         //Redstone Comparator
             ShapedRecipe comparator = new ShapedRecipe(new ItemStack(Material.COMPARATOR, 1)).shape("sss", "tqt", " t ").setIngredient('s', Material.STONE).setIngredient('t', Material.REDSTONE_TORCH).setIngredient('q', Material.QUARTZ);
@@ -317,13 +222,11 @@ public class Recipes {
         //Rail
         //Activator Rail
         //Minecart
-        //Saddle
         //Minecart with Chest
         //Minecart with Furnace
         //Carrot on a Stick
         //Minecart with TNT
         //Minecart with Hopper
-        //Elytra
         //Boats, all types
             //TODO Boats, add new wood (lines)
             ShapedRecipe boat00 = new ShapedRecipe(new ItemStack(Material.ACACIA_BOAT, 1)).shape("www", "w w", "   ").setIngredient('w', Material.ACACIA_PLANKS);
@@ -354,84 +257,30 @@ public class Recipes {
 
     public void miscellaneous(){
         //Beacon
-        //Turtle Egg
         //Conduit
         //Scute
         //Coal
-        //Charcoal
-        //Diamond
-        //Iron Ingot
-        //Gold Ingot
-        //Stick
         //Bowl
-        //String
-        //Feather
-        //Gunpowder
-        //Wheat Seeds
-        //Wheat
         //Flint
         //Bucket
             ShapedRecipe bucket00 = new ShapedRecipe(new ItemStack(Material.BUCKET, 1)).shape(" i ", "i i", "   ").setIngredient('i', Material.IRON_INGOT);
             ShapedRecipe bucket01 = new ShapedRecipe(new ItemStack(Material.BUCKET, 1)).shape("   ", " i ", "i i").setIngredient('i', Material.IRON_INGOT);
             Main.addToArray(bucket00);
             Main.addToArray(bucket01);
-        //Water Bucket
-        //Lava Bucket
-        //Snowball
-        //Leather
-        //Milk Bucket
-        //Buckets of Fish, all kinds
-        //Brick
-        //Clay
-        //Sugar Cane
-        //Kelp
-        //Bamboo
-        //Paper
         //Book
-        //Slimeball
-        //Egg
-        //Glowstone Dust
-        //Ink Sac
-        //Dyes, all kinds
-        //Cocoa Beans
-        //Lapis Lazuli
-        //Bone Meal
-        //Bone
-        //Sugar
-        //Pumpkin Seeds
-        //Melon Seeds
-        //Ender Pearl
-        //Blaze Rod
-        //Gold Nugget
-        //Nether Wart
         //Eye of Ender
-        //Spawn Eggs, all kinds
-        //Bottle o' Enchanting
         //Fire Charge
         //Book and Quill
-        //Emerald
         //Empty Map
-        //Nether Star
         //Firework Rocket, no effects
         //Firework Star, no effects
         //Nether Brick
         //Nether Quartz
-        //Prismarine Shard
         //Prismarine Crystals
-        //Rabbit Hide
-        //Horse Armor, all kinds
-        //Chorus Fruit
-        //Popped Chorus Fruit
-        //Beetroot Seeds
-        //Shulker Shell
-        //Iron Nugget
-        //Music Discs, all kinds
         //Nautilus Shell
         //Heart of the Sea
         //Banner Patterns, all kinds
         //Honeycomb
-        //Netherite Ingot
-        //Netherite Scrap
     }
 
     public void foodStuffs(){
@@ -652,31 +501,20 @@ public class Recipes {
 
         //Tipped Arrows, all craftable types that have effects
         //Shield
-        //Totem of Undying
-        //Trident
     }
 
     public void brewing(){
-        //Ghast Tear
-        //Potions, all kinds
         //Glass Bottle
             ShapedRecipe bottle00 = new ShapedRecipe(new ItemStack(Material.GLASS_BOTTLE, 3)).shape(" i ", "i i", "   ").setIngredient('i', Material.GLASS);
             ShapedRecipe bottle01 = new ShapedRecipe(new ItemStack(Material.GLASS_BOTTLE,3)).shape("   ", " i ", "i i").setIngredient('i', Material.GLASS);
             Main.addToArray(bottle00);
             Main.addToArray(bottle01);
         //Fermented Spider Eye
-        //Blaze Powder
-        //Magma Cream
         //Brewing Stand
         //Cauldron
             ShapedRecipe cauldron = new ShapedRecipe(new ItemStack(Material.CAULDRON, 1)).shape("***", "* *", "* *").setIngredient('*', Material.IRON_INGOT);
         //Glistering Melon Slice
         //Golden Carrot
-        //Rabbit's Foot
-        //Dragon's Breath
-        //Phantom Membrane
-        //Splash Potions, all kinds
-        //Lingering Potions, all kinds
     }
 
 }
