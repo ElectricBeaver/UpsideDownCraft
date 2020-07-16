@@ -358,7 +358,6 @@ public class Recipes {
             Main.addToArray(stoneShovel02);
             Main.addToArray(woodenShovel02);
         //Pickaxes, all types
-            //TODO Picks, add new wood (Mats)
             ShapedRecipe diamondPick = new ShapedRecipe(new ItemStack(Material.DIAMOND_PICKAXE, 1)).shape(" * ", " * ", "%%%").setIngredient('*', Material.STICK).setIngredient('%', Material.DIAMOND);
             ShapedRecipe ironPick = new ShapedRecipe(new ItemStack(Material.IRON_PICKAXE, 1)).shape(" * ", " * ", "%%%").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenPick = new ShapedRecipe(new ItemStack(Material.GOLDEN_PICKAXE, 1)).shape(" * ", " * ", "%%%").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
@@ -370,7 +369,6 @@ public class Recipes {
             Main.addToArray(stonePick);
             Main.addToArray(woodenPick);
         //Axes, all types
-            //TODO Axes, add new wood (Mats)
             ShapedRecipe diamondAxe00 = new ShapedRecipe(new ItemStack(Material.DIAMOND_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.DIAMOND);
             ShapedRecipe ironAxe00 = new ShapedRecipe(new ItemStack(Material.IRON_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.IRON_INGOT);
             ShapedRecipe goldenAxe00 = new ShapedRecipe(new ItemStack(Material.GOLDEN_AXE, 1)).shape(" * ", " *%", " %%").setIngredient('*', Material.STICK).setIngredient('%', Material.GOLD_INGOT);
