@@ -34,7 +34,6 @@ public class Main extends JavaPlugin implements Listener {
        //Classes
        Removed removeClass = new Removed();
         removeClass.removed();
-
        Recipes recipes = new Recipes();
         recipes.buildingBlock();
         recipes.decorationBlock();
@@ -47,10 +46,10 @@ public class Main extends JavaPlugin implements Listener {
         recipes.brewing();
 
        if(getServer().getPluginManager().getPlugin("BursedCois") != null){
-           getLogger().info(ChatColor.GRAY + "[" + ChatColor.BLUE + "Cursed" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + "Cursed Boys detected... This is a good thing");
+           getLogger().info(ChatColor.GRAY + "[" + ChatColor.BLUE + "Cursed" + ChatColor.DARK_RED + "UpsideDown" + ChatColor.GRAY + "] " + "Cursed Boys detected... This is a good thing");
        }else if(getServer().getPluginManager().getPlugin("BursedCois") == null){
-           getServer().getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.BLUE + "Cursed" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + ChatColor.DARK_RED + "Well shit this is not good... BursedCois hasn't been detected this plugin wont give the full cursed effect without it." )  ;
-           getServer().getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.BLUE + "Cursed" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + ChatColor.RED + "This plugin will still work without it though...");
+           getServer().getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.BLUE + "UpsideDown" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + ChatColor.DARK_RED + "Well shit this is not good... BursedCois hasn't been detected this plugin wont give the full cursed effect without it." )  ;
+           getServer().getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.BLUE + "UpsideDown" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + ChatColor.RED + "This plugin will still work without it though...");
        }
 
        //Recipe Array Setup
@@ -71,7 +70,7 @@ public class Main extends JavaPlugin implements Listener {
    }
    //Disable
     public void onDisable(){
-        getServer().getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.BLUE + "Cursed" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + ChatColor.RED + "I hope you didn't RAGE quit :)");
+        getServer().getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.BLUE + "UpsideDown" + ChatColor.DARK_RED + "Craft" + ChatColor.GRAY + "] " + ChatColor.RED + "I hope you didn't RAGE quit :)");
         plugin = null;
     }
     public static Plugin getPlugin(){

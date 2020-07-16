@@ -37,6 +37,8 @@ public class Removed {
                 it.remove();
             }else if (recipe != null && recipe.getResult().getType().equals(Material.CAULDRON)) {
                 it.remove();
+            }else if(recipe != null && recipe.getResult().getType().equals(Material.CRAFTING_TABLE)){
+                it.remove();
             }
             //D
             else if (recipe != null && recipe.getResult().getType().equals(Material.DARK_OAK_BOAT)) {
@@ -184,6 +186,63 @@ public class Removed {
             } else if (recipe != null && recipe.getResult().getType().equals(Material.WOODEN_PICKAXE)) {
                 it.remove();
             }
+
+            else if(recipe != null && recipe.getResult().getType().equals(Material.ANDESITE_STAIRS)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.POLISHED_ANDESITE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DIORITE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.POLISHED_DIORITE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.GRANITE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.POLISHED_GRANITE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SANDSTONE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.RED_SANDSTONE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SMOOTH_SANDSTONE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SMOOTH_RED_SANDSTONE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.BRICK_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.PRISMARINE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.PRISMARINE_BRICK_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DARK_PRISMARINE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.NETHER_BRICK_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.RED_NETHER_BRICK_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.QUARTZ_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SMOOTH_QUARTZ_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.PURPUR_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.END_STONE_BRICK_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.BLACKSTONE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.POLISHED_BLACKSTONE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.POLISHED_BLACKSTONE_BRICK_STAIRS)) {
+                it.remove();
+            }
+
+
+
+
+
+
+
+
+
             //X
             //Y
             //Z
