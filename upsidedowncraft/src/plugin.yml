@@ -1,6 +1,9 @@
 name: UpsideDownCraft
-version: 2.0.0
+version: 2.1.0
 api-version: 1.16
 main: io.github.electrcibeaver.CraftUpsideDown.Main
-description: this is plugin
+description: Well it's a frakin' plugin my guy... What else do you want a description of what it does or something. fuk outa here
 prefix: CursedCraft
+authors:
+  - ElectricBeaver
+  - XxTheEnderGodxX

@@ -119,6 +119,7 @@ public class Recipes {
             Main.addToArray(torch01);
         //End Rod
                 //Crafting Table
+            ShapedRecipe craftingTable = new ShapedRecipe(new ItemStack(Material.CRAFTING_TABLE)).shape("ll", "ll").setIngredient('l', new RecipeChoice.MaterialChoice(Material.ACACIA_LOG, Material.BIRCH_LOG, Material.DARK_OAK_LOG, Material.JUNGLE_LOG, Material.SPRUCE_LOG, Material.OAK_LOG, Material.CRIMSON_STEM, Material.WARPED_STEM));
         //Jukebox
         //Soul Torch
         //Iron Bars

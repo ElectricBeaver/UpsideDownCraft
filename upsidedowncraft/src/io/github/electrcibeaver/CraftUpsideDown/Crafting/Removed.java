@@ -37,6 +37,8 @@ public class Removed {
                 it.remove();
             }else if (recipe != null && recipe.getResult().getType().equals(Material.CAULDRON)) {
                 it.remove();
+            }else if(recipe != null && recipe.getResult().getType().equals(Material.CRAFTING_TABLE)){
+                it.remove();
             }
             //D
             else if (recipe != null && recipe.getResult().getType().equals(Material.DARK_OAK_BOAT)) {
