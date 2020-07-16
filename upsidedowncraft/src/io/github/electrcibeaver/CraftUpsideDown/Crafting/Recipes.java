@@ -26,66 +26,179 @@ public class Recipes {
         //Purpur Pillar
         //Stairs, all kinds
             //TODO Stairs, Add rest of them, Add new wood (Lines)
-            ShapedRecipe woodStairs = new ShapedRecipe(new ItemStack(Material.OAK_STAIRS, 4)).shape( "www", "ww ", "w  ").setIngredient('w', Material.OAK_PLANKS);
-            ShapedRecipe woodStairs01 = new ShapedRecipe(new ItemStack(Material.OAK_STAIRS, 4)).shape( "www", " ww", "  w").setIngredient('w', Material.OAK_PLANKS);
+            ShapedRecipe woodStairs = new ShapedRecipe(new ItemStack(Material.OAK_STAIRS, 4)).shape( "***", "** ", "*  ").setIngredient('*', Material.OAK_PLANKS);
+            ShapedRecipe woodStairs01 = new ShapedRecipe(new ItemStack(Material.OAK_STAIRS, 4)).shape( "***", " **", "  *").setIngredient('*', Material.OAK_PLANKS);
             Main.addToArray(woodStairs);
             Main.addToArray(woodStairs01);
 
-            ShapedRecipe woodStairs02 = new ShapedRecipe(new ItemStack(Material.BIRCH_STAIRS,4 )).shape("www", "ww ","w  " ).setIngredient('w', Material.BIRCH_PLANKS);
-            ShapedRecipe woodStairs03 = new ShapedRecipe(new ItemStack(Material.BIRCH_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.BIRCH_PLANKS);
+            ShapedRecipe woodStairs02 = new ShapedRecipe(new ItemStack(Material.BIRCH_STAIRS,4 )).shape("***", "** ","*  " ).setIngredient('*', Material.BIRCH_PLANKS);
+            ShapedRecipe woodStairs03 = new ShapedRecipe(new ItemStack(Material.BIRCH_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.BIRCH_PLANKS);
             Main.addToArray(woodStairs02);
             Main.addToArray(woodStairs03);
 
-            ShapedRecipe woodStairs04 = new ShapedRecipe(new ItemStack(Material.SPRUCE_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.SPRUCE_PLANKS);
-            ShapedRecipe woodStairs05 = new ShapedRecipe(new ItemStack(Material.SPRUCE_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.SPRUCE_PLANKS);
+            ShapedRecipe woodStairs04 = new ShapedRecipe(new ItemStack(Material.SPRUCE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.SPRUCE_PLANKS);
+            ShapedRecipe woodStairs05 = new ShapedRecipe(new ItemStack(Material.SPRUCE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.SPRUCE_PLANKS);
             Main.addToArray(woodStairs04);
             Main.addToArray(woodStairs05);
 
-            ShapedRecipe woodStairs06 = new ShapedRecipe(new ItemStack(Material.JUNGLE_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.JUNGLE_PLANKS);
-            ShapedRecipe woodStairs07 = new ShapedRecipe(new ItemStack(Material.JUNGLE_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.JUNGLE_PLANKS);
+            ShapedRecipe woodStairs06 = new ShapedRecipe(new ItemStack(Material.JUNGLE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.JUNGLE_PLANKS);
+            ShapedRecipe woodStairs07 = new ShapedRecipe(new ItemStack(Material.JUNGLE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.JUNGLE_PLANKS);
             Main.addToArray(woodStairs06);
             Main.addToArray(woodStairs07);
 
-            ShapedRecipe woodStairs08 = new ShapedRecipe(new ItemStack(Material.ACACIA_PLANKS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.ACACIA_PLANKS);
-            ShapedRecipe woodStairs09 = new ShapedRecipe(new ItemStack(Material.ACACIA_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.ACACIA_PLANKS);
+            ShapedRecipe woodStairs08 = new ShapedRecipe(new ItemStack(Material.ACACIA_PLANKS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.ACACIA_PLANKS);
+            ShapedRecipe woodStairs09 = new ShapedRecipe(new ItemStack(Material.ACACIA_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.ACACIA_PLANKS);
             Main.addToArray(woodStairs08);
             Main.addToArray(woodStairs09);
 
-            ShapedRecipe woodStairs10 = new ShapedRecipe(new ItemStack(Material.DARK_OAK_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.DARK_OAK_PLANKS);
-            ShapedRecipe woodStairs11 = new ShapedRecipe(new ItemStack(Material.DARK_OAK_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.DARK_OAK_PLANKS);
+            ShapedRecipe woodStairs10 = new ShapedRecipe(new ItemStack(Material.DARK_OAK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.DARK_OAK_PLANKS);
+            ShapedRecipe woodStairs11 = new ShapedRecipe(new ItemStack(Material.DARK_OAK_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.DARK_OAK_PLANKS);
             Main.addToArray(woodStairs10);
             Main.addToArray(woodStairs11);
 
-            ShapedRecipe stoneStairs00 = new ShapedRecipe(new ItemStack(Material.STONE_STAIRS,4 )).shape("www", "ww ", "w  ").setIngredient('w', Material.STONE);
-            ShapedRecipe stoneStairs01 = new ShapedRecipe(new ItemStack(Material.STONE_STAIRS,4)).shape("www", " ww", "  w").setIngredient('w', Material.STONE);
+            ShapedRecipe stoneStairs00 = new ShapedRecipe(new ItemStack(Material.STONE_STAIRS,4 )).shape("***", "** ", "*  ").setIngredient('*', Material.STONE);
+            ShapedRecipe stoneStairs01 = new ShapedRecipe(new ItemStack(Material.STONE_STAIRS,4)).shape("***", " **", "  *").setIngredient('*', Material.STONE);
             Main.addToArray(stoneStairs00);
             Main.addToArray(stoneStairs01);
 
-            ShapedRecipe cobblestoneStairs01 = new ShapedRecipe(new ItemStack(Material.COBBLESTONE_STAIRS)).shape("www", "ww ", "w  ").setIngredient('w', Material.COBBLESTONE);
-            ShapedRecipe cobblestoneStairs02 = new ShapedRecipe(new ItemStack(Material.COBBLESTONE_STAIRS)).shape("www", " ww", "  w").setIngredient('w', Material.COBBLESTONE);
+            ShapedRecipe cobblestoneStairs01 = new ShapedRecipe(new ItemStack(Material.COBBLESTONE_STAIRS)).shape("***", "** ", "*  ").setIngredient('*', Material.COBBLESTONE);
+            ShapedRecipe cobblestoneStairs02 = new ShapedRecipe(new ItemStack(Material.COBBLESTONE_STAIRS)).shape("***", " **", "  *").setIngredient('*', Material.COBBLESTONE);
             Main.addToArray(cobblestoneStairs01);
             Main.addToArray(cobblestoneStairs02);
 
-            ShapedRecipe mossyCobblestoneStairs01 = new ShapedRecipe(new ItemStack(Material.MOSSY_COBBLESTONE_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.MOSSY_COBBLESTONE);
-            ShapedRecipe mossyCobblestoneStairs02 = new ShapedRecipe(new ItemStack(Material.MOSSY_COBBLESTONE_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.MOSSY_COBBLESTONE);
+            ShapedRecipe mossyCobblestoneStairs01 = new ShapedRecipe(new ItemStack(Material.MOSSY_COBBLESTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.MOSSY_COBBLESTONE);
+            ShapedRecipe mossyCobblestoneStairs02 = new ShapedRecipe(new ItemStack(Material.MOSSY_COBBLESTONE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.MOSSY_COBBLESTONE);
             Main.addToArray(mossyCobblestoneStairs01);
             Main.addToArray(mossyCobblestoneStairs02);
 
-            ShapedRecipe stoneBrickStairs01 = new ShapedRecipe(new ItemStack(Material.STONE_BRICK_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.STONE_BRICKS);
-            ShapedRecipe stoneBrickStairs02 = new ShapedRecipe(new ItemStack(Material.STONE_BRICK_STAIRS)).shape("www", " ww", "  w").setIngredient('w', Material.STONE_BRICKS);
+            ShapedRecipe stoneBrickStairs01 = new ShapedRecipe(new ItemStack(Material.STONE_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.STONE_BRICKS);
+            ShapedRecipe stoneBrickStairs02 = new ShapedRecipe(new ItemStack(Material.STONE_BRICK_STAIRS)).shape("***", " **", "  *").setIngredient('*', Material.STONE_BRICKS);
             Main.addToArray(stoneBrickStairs01);
             Main.addToArray(stoneBrickStairs02);
 
-            ShapedRecipe mossyStoneBricks01 = new ShapedRecipe(new ItemStack(Material.MOSSY_STONE_BRICK_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.MOSSY_STONE_BRICKS);
-            ShapedRecipe mossyStoneBricks02 = new ShapedRecipe(new ItemStack(Material.MOSSY_STONE_BRICK_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.MOSSY_STONE_BRICKS);
+            ShapedRecipe mossyStoneBricks01 = new ShapedRecipe(new ItemStack(Material.MOSSY_STONE_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.MOSSY_STONE_BRICKS);
+            ShapedRecipe mossyStoneBricks02 = new ShapedRecipe(new ItemStack(Material.MOSSY_STONE_BRICK_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.MOSSY_STONE_BRICKS);
             Main.addToArray(mossyStoneBricks01);
             Main.addToArray(mossyStoneBricks02);
 
-            ShapedRecipe andesite01 = new ShapedRecipe(new ItemStack(Material.ANDESITE_STAIRS, 4)).shape("www", "ww ", "w  ").setIngredient('w', Material.ANDESITE);
-            ShapedRecipe andesite02 = new ShapedRecipe(new ItemStack(Material.ANDESITE_STAIRS, 4)).shape("www", " ww", "  w").setIngredient('w', Material.ANDESITE);
+            ShapedRecipe andesite01 = new ShapedRecipe(new ItemStack(Material.ANDESITE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.ANDESITE);
+            ShapedRecipe andesite02 = new ShapedRecipe(new ItemStack(Material.ANDESITE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.ANDESITE);
             Main.addToArray(andesite01);
             Main.addToArray(andesite02);
-        //Basalt
+
+            ShapedRecipe polishedAndesite01 = new ShapedRecipe(new ItemStack(Material.POLISHED_ANDESITE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.POLISHED_ANDESITE);
+            ShapedRecipe polishedAndesite02 = new ShapedRecipe(new ItemStack(Material.POLISHED_ANDESITE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.POLISHED_ANDESITE);
+            Main.addToArray(polishedAndesite01);
+            Main.addToArray(polishedAndesite02);
+
+            ShapedRecipe dioriteStairs01 = new ShapedRecipe(new ItemStack(Material.DIORITE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.DIORITE);
+            ShapedRecipe dioriteStairs02 = new ShapedRecipe(new ItemStack(Material.DIORITE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.DIORITE);
+            Main.addToArray(dioriteStairs01);
+            Main.addToArray(dioriteStairs02);
+
+            ShapedRecipe polishedDioriteStairs01 = new ShapedRecipe(new ItemStack(Material.POLISHED_DIORITE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.POLISHED_DIORITE);
+            ShapedRecipe polishedDioriteStairs02 = new ShapedRecipe(new ItemStack(Material.POLISHED_DIORITE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.POLISHED_DIORITE);
+            Main.addToArray(dioriteStairs01);
+            Main.addToArray(dioriteStairs02);
+
+            ShapedRecipe graniteStairs01 = new ShapedRecipe(new ItemStack(Material.GRANITE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.GRANITE);
+            ShapedRecipe graniteStairs02 = new ShapedRecipe(new ItemStack(Material.GRANITE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.GRANITE);
+            Main.addToArray(graniteStairs01);
+            Main.addToArray(graniteStairs02);
+
+            ShapedRecipe polishedGraniteStairs01 = new ShapedRecipe(new ItemStack(Material.POLISHED_GRANITE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.POLISHED_GRANITE);
+            ShapedRecipe polishedGraniteStairs02 = new ShapedRecipe(new ItemStack(Material.POLISHED_GRANITE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.POLISHED_GRANITE);
+            Main.addToArray(polishedGraniteStairs01);
+            Main.addToArray(polishedGraniteStairs02);
+
+            ShapedRecipe sandstoneStairs01 = new ShapedRecipe(new ItemStack(Material.SANDSTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.SANDSTONE);
+            ShapedRecipe sandstoneStairs02 = new ShapedRecipe(new ItemStack(Material.SANDSTONE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.SANDSTONE);
+            Main.addToArray(sandstoneStairs01);
+            Main.addToArray(sandstoneStairs02);
+
+            ShapedRecipe redSandstoneStairs01 = new ShapedRecipe(new ItemStack(Material.RED_SANDSTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.RED_SANDSTONE);
+            ShapedRecipe redSandstoneStairs02 = new ShapedRecipe(new ItemStack(Material.RED_SANDSTONE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.RED_SANDSTONE);
+            Main.addToArray(redSandstoneStairs01);
+            Main.addToArray(redSandstoneStairs02);
+
+            ShapedRecipe smoothSandstoneStairs01 = new ShapedRecipe(new ItemStack(Material.SMOOTH_SANDSTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.SMOOTH_SANDSTONE);
+            ShapedRecipe smoothSandstoneStairs02 = new ShapedRecipe(new ItemStack(Material.SMOOTH_SANDSTONE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.SMOOTH_SANDSTONE);
+            Main.addToArray(smoothSandstoneStairs01);
+            Main.addToArray(smoothSandstoneStairs02);
+
+            ShapedRecipe smoothRedSandstoneStairs01 = new ShapedRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.SMOOTH_RED_SANDSTONE);
+            ShapedRecipe smoothRedSandstoneStairs02 = new ShapedRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.SMOOTH_RED_SANDSTONE);
+            Main.addToArray(smoothRedSandstoneStairs01);
+            Main.addToArray(smoothRedSandstoneStairs02);
+
+            ShapedRecipe brickStairs01 = new ShapedRecipe(new ItemStack(Material.BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.BRICK );
+            ShapedRecipe brickStairs02 = new ShapedRecipe(new ItemStack(Material.BRICK_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.BRICK );
+            Main.addToArray(brickStairs01);
+            Main.addToArray(brickStairs02);
+
+            ShapedRecipe prismarineStairs01 = new ShapedRecipe(new ItemStack(Material.PRISMARINE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.PRISMARINE);
+            ShapedRecipe prismarineStairs02 = new ShapedRecipe(new ItemStack(Material.PRISMARINE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.PRISMARINE);
+            Main.addToArray(prismarineStairs01);
+            Main.addToArray(prismarineStairs02);
+
+            ShapedRecipe prismarineBrickStairs01 = new ShapedRecipe(new ItemStack(Material.PRISMARINE_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.PRISMARINE_BRICKS );
+            ShapedRecipe prismarineBrickStairs02 = new ShapedRecipe(new ItemStack(Material.PRISMARINE_BRICK_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.PRISMARINE_BRICKS );
+            Main.addToArray(prismarineBrickStairs01);
+            Main.addToArray(prismarineBrickStairs02);
+
+            ShapedRecipe darkPrismarineStairs01 = new ShapedRecipe(new ItemStack(Material.DARK_PRISMARINE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.DARK_PRISMARINE );
+            ShapedRecipe darkPrismarineStairs02 = new ShapedRecipe(new ItemStack(Material.DARK_PRISMARINE_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.DARK_PRISMARINE );
+            Main.addToArray(darkPrismarineStairs01);
+            Main.addToArray(darkPrismarineStairs02);
+
+            ShapedRecipe netherBrickStairs01 = new ShapedRecipe(new ItemStack(Material.NETHER_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.NETHER_BRICK );
+            ShapedRecipe netherBrickStairs02 = new ShapedRecipe(new ItemStack(Material.NETHER_BRICK_STAIRS, 4)).shape("***", "  **", "  *").setIngredient('*', Material.NETHER_BRICK );
+            Main.addToArray(netherBrickStairs01);
+            Main.addToArray(netherBrickStairs02);
+
+            ShapedRecipe redNetherBrickStairs01 = new ShapedRecipe(new ItemStack(Material.RED_NETHER_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.RED_NETHER_BRICKS );
+            ShapedRecipe redNetherBrickStairs02 = new ShapedRecipe(new ItemStack(Material.RED_NETHER_BRICK_STAIRS, 4)).shape("***", "  **", "  *").setIngredient('*', Material.RED_NETHER_BRICKS );
+            Main.addToArray(redNetherBrickStairs01);
+            Main.addToArray(redNetherBrickStairs02);
+
+            ShapedRecipe quartzStairs01 = new ShapedRecipe(new ItemStack(Material.QUARTZ_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.QUARTZ_BLOCK);
+            ShapedRecipe quartzStairs02 = new ShapedRecipe(new ItemStack(Material.QUARTZ_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.QUARTZ_BLOCK);
+            Main.addToArray(quartzStairs01);
+            Main.addToArray(quartzStairs02);
+
+            ShapedRecipe smoothQuartzStairs01 = new ShapedRecipe(new ItemStack(Material.SMOOTH_QUARTZ_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.SMOOTH_QUARTZ);
+            ShapedRecipe smoothQuartzStairs02 = new ShapedRecipe(new ItemStack(Material.SMOOTH_QUARTZ_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.SMOOTH_QUARTZ);
+            Main.addToArray(smoothQuartzStairs01);
+            Main.addToArray(smoothQuartzStairs02);
+
+            ShapedRecipe purpurStairs01 = new ShapedRecipe(new ItemStack(Material.PURPUR_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', new RecipeChoice.MaterialChoice(Material.PURPUR_BLOCK, Material.PURPUR_PILLAR) );
+            ShapedRecipe purpurStairs02 = new ShapedRecipe(new ItemStack(Material.PURPUR_STAIRS, 4)).shape("***", "  *", "  *").setIngredient('*', new RecipeChoice.MaterialChoice(Material.PURPUR_BLOCK, Material.PURPUR_PILLAR) );
+            Main.addToArray(purpurStairs01);
+            Main.addToArray(purpurStairs02);
+
+            ShapedRecipe endStoneBrickStairs01 = new ShapedRecipe(new ItemStack(Material.END_STONE_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.END_STONE_BRICKS );
+            ShapedRecipe endStoneBrickStairs02 = new ShapedRecipe(new ItemStack(Material.END_STONE_BRICK_STAIRS, 4)).shape("***", " **", "  *").setIngredient('*', Material.END_STONE_BRICKS );
+            Main.addToArray(endStoneBrickStairs01);
+            Main.addToArray(endStoneBrickStairs02);
+
+            ShapedRecipe blackStoneStairs01 = new ShapedRecipe(new ItemStack(Material.BLACKSTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.BLACKSTONE );
+            ShapedRecipe blackStoneStairs02 = new ShapedRecipe(new ItemStack(Material.BLACKSTONE_STAIRS, 4)).shape("***", "  **", "  *").setIngredient('*', Material.BLACKSTONE );
+            Main.addToArray(blackStoneStairs01);
+            Main.addToArray(blackStoneStairs02);
+
+            ShapedRecipe polishedBlackStoneStairs01 = new ShapedRecipe(new ItemStack(Material.POLISHED_BLACKSTONE_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.POLISHED_BLACKSTONE);
+            ShapedRecipe polishedBlackStoneStairs02 = new ShapedRecipe(new ItemStack(Material.POLISHED_BLACKSTONE_STAIRS, 4)).shape("***", "  **", "  *").setIngredient('*', Material.POLISHED_BLACKSTONE );
+            Main.addToArray(polishedBlackStoneStairs01);
+            Main.addToArray(polishedBlackStoneStairs02);
+
+            ShapedRecipe polishedBlackStoneBrickStairs01 = new ShapedRecipe(new ItemStack(Material.POLISHED_BLACKSTONE_BRICK_STAIRS, 4)).shape("***", "** ", "*  ").setIngredient('*', Material.POLISHED_BLACKSTONE_BRICKS);
+            ShapedRecipe polishedBlackStoneBrickStairs02 = new ShapedRecipe(new ItemStack(Material.POLISHED_BLACKSTONE_BRICK_STAIRS, 4)).shape("***", "  **", "  *").setIngredient('*', Material.POLISHED_BLACKSTONE_BRICKS );
+            Main.addToArray(polishedBlackStoneBrickStairs01);
+            Main.addToArray(polishedBlackStoneBrickStairs02);
+
+
+
+            //Basalt
         //Jack o'Lantern
         //Nether Bricks
         //End Stone Bricks
