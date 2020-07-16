@@ -622,6 +622,7 @@ public class Recipes {
         //Brewing Stand
         //Cauldron
             ShapedRecipe cauldron = new ShapedRecipe(new ItemStack(Material.CAULDRON, 1)).shape("***", "* *", "* *").setIngredient('*', Material.IRON_INGOT);
+            Main.addToArray(cauldron);
         //Glistering Melon Slice
         //Golden Carrot
     }
