@@ -19,25 +19,43 @@ public class Removed {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.ACACIA_STAIRS)) {
                 it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.ARMOR_STAND)){
+                it.remove();
+            }else if (recipe != null && recipe.getResult().getType().equals(Material.ARROW)){
+                it.remove();
             }
             //B
             else if (recipe != null && recipe.getResult().getType().equals(Material.BARREL)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.BEACON)){
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.BIRCH_BOAT)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.BIRCH_STAIRS)) {
                 it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.BLAST_FURNACE)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.BOWL)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.BREWING_STAND)){
+                it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.BUCKET)) {
                 it.remove();
             }
             //C
-            else if (recipe != null && recipe.getResult().getType().equals(Material.CARTOGRAPHY_TABLE)) {
+            else if (recipe != null && recipe.getResult().getType().equals(Material.CAMPFIRE)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SOUL_CAMPFIRE)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.CARTOGRAPHY_TABLE)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.COBBLESTONE_STAIRS)) {
                 it.remove();
             }else if (recipe != null && recipe.getResult().getType().equals(Material.CAULDRON)) {
                 it.remove();
-            }else if(recipe != null && recipe.getResult().getType().equals(Material.CRAFTING_TABLE)){
+            } else if(recipe != null && recipe.getResult().getType().equals(Material.CRAFTING_TABLE)){
+                it.remove();
+            } else if(recipe != null && recipe.getResult().getType().equals(Material.COMPOSTER)){
                 it.remove();
             }
             //D
@@ -46,6 +64,8 @@ public class Removed {
             } else if (recipe != null && recipe.getResult().getType().equals(Material.DARK_OAK_STAIRS)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.DAYLIGHT_DETECTOR)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DETECTOR_RAIL)){
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_AXE)) {
                 it.remove();
@@ -57,21 +77,29 @@ public class Removed {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_PICKAXE)) {
                 it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DISPENSER)){
+                it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.DROPPER)) {
                 it.remove();
-            }else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_HELMET)) {
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_HELMET)) {
                 it.remove();
-            }else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_CHESTPLATE)) {
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_CHESTPLATE)) {
                 it.remove();
-            }else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_LEGGINGS)) {
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.DIAMOND_LEGGINGS)) {
                 it.remove();
             }
             //E
             else if (recipe != null && recipe.getResult().getType().equals(Material.ENCHANTING_TABLE)) {
                 it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.END_CRYSTAL)){
+                it.remove();
             }
             //F
             else if (recipe != null && recipe.getResult().getType().equals(Material.FISHING_ROD)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.FLOWER_POT)){
+                it.remove();
+            }else if (recipe != null && recipe.getResult().getType().equals(Material.FLETCHING_TABLE)){
                 it.remove();
             }
             //G
@@ -87,11 +115,13 @@ public class Removed {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.GOLDEN_PICKAXE)) {
                 it.remove();
-            }else if (recipe != null && recipe.getResult().getType().equals(Material.GOLDEN_HELMET)) {
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.GOLDEN_HELMET)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.GOLDEN_CHESTPLATE)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.GOLDEN_LEGGINGS)) {
+                it.remove();
+            }else if (recipe != null && recipe.getResult().getType().equals(Material.GRINDSTONE)){
                 it.remove();
             }
             //H
@@ -125,11 +155,25 @@ public class Removed {
             }
             //k
             //L
-              else if (recipe != null && recipe.getResult().getType().equals(Material.LOOM)){
+            else if (recipe != null && recipe.getResult().getType().equals(Material.LECTERN)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.LEVER)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.LOOM)){
                 it.remove();
             }
             //M
-            else if (recipe != null && recipe.getResult().getType().equals(Material.MOSSY_COBBLESTONE_STAIRS)) {
+            else if (recipe != null && recipe.getResult().getType().equals(Material.MINECART)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.CHEST_MINECART)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.FURNACE_MINECART)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.TNT_MINECART)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.HOPPER_MINECART)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.MOSSY_COBBLESTONE_STAIRS)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.MOSSY_STONE_BRICK_STAIRS)) {
                 it.remove();
@@ -143,33 +187,53 @@ public class Removed {
             //P
             else if (recipe != null && recipe.getResult().getType().equals(Material.PISTON)) {
                 it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.POWERED_RAIL)){
+                it.remove();
             }
             //Q
             //R
-            //S
-            else if (recipe != null && recipe.getResult().getType().equals(Material.SMITHING_TABLE)) {
+            else if (recipe != null && recipe.getResult().getType().equals(Material.REPEATER)){
                 it.remove();
-            } else if (recipe != null && recipe.getResult().getType().equals(Material.SPRUCE_BOAT)) {
+            }
+            //S
+            else if(recipe != null && recipe.getResult().getType().equals(Material.SCAFFOLDING)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SHIELD)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SMITHING_TABLE)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.SOUL_TORCH)){
+                it.remove();
+            }
+            else if (recipe != null && recipe.getResult().getType().equals(Material.SPRUCE_BOAT)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.SPRUCE_STAIRS)) {
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.STICKY_PISTON)){
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_AXE)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_BRICK_STAIRS)) {
                 it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.STONECUTTER)){
+                it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_HOE)) {
                 it.remove();
-            }else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_STAIRS)) {
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_STAIRS)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_SHOVEL)) {
                 it.remove();
             } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_SWORD)) {
                 it.remove();
-            }else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_PICKAXE)) {
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.STONE_PICKAXE)) {
                 it.remove();
             }
             //T
-            else if(recipe != null && recipe.getResult().getType().equals(Material.TORCH)){
+            else if (recipe != null && recipe.getResult().getType().equals(Material.TURTLE_HELMET)){
+                it.remove();
+            } else if(recipe != null && recipe.getResult().getType().equals(Material.TORCH)){
+                it.remove();
+            } else if (recipe != null && recipe.getResult().getType().equals(Material.TRIPWIRE_HOOK)){
                 it.remove();
             }
             //U
